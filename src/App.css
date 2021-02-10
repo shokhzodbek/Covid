@@ -1,0 +1,33 @@
+body {
+  background-color: whitesmoke;
+}
+
+.app_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.app_state {
+  display: flex;
+  justify-content: space-between;
+}
+
+.app {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.app_left {
+  flex: 0.9;
+}
+
+@media(max-width:990px){
+ .app {
+   flex-direction: column;
+ }
+ .app_state {
+   flex-direction: column;
+ }
+}

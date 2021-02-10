@@ -1,0 +1,27 @@
+.infobox {
+      flex: 1;
+
+}
+
+.infobox:not(:last-child){
+      margin-right: 10px;
+}
+.cases {
+      color: rgb(214, 93, 93);
+      font-weight: 600;
+      font-size: 1.75rem;
+      margin-bottom: 0.5rem;
+}
+.total {
+      color: rgba(230, 214, 214, 0.933);
+      font-weight: 700 !important;
+      font-size: 0.8rem;
+      margin-top:15px !important;
+}
+
+
+.card:hover{
+      border-top:3px solid rgb(65, 225, 100);
+      box-sizing: border-box;
+
+}
